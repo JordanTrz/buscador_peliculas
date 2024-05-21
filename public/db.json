@@ -1,0 +1,47 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "description": "Two imprisoned men bond over a number of years, finding solace an eventual redemption through acts of common decency.",
+      "genre": "Drama",
+      "img": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABZ7HiIpFJxAl8h1mxN5yoi5RntLnQ3vUsY6Y7Oi7sgV2a5bd6wqf_eSKly0hTJTLwZFNgI2zCe0Nvx5n6COo_gwvJKRb8n2iH5YJ.jpg?r=f39"
+    },
+    {
+      "id": 2,
+      "title": "Inception",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "genre": "Action",
+      "img": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABTQceVXkUtOVq09hGZKukC2eTTjKWR0D4fARc75i3nQFrXuqaTaCSy-2sAMuWssoJyo2UbOT8sR-VV3Kd-ksn-todO7WvYMR7hdc.jpg?r=d8c"
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "description": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "genre": "Action",
+      "img": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQgI9ViuHPToQIrRhESgb7iy_Tp_hsn0L0ylCwH1OcY-KqqLLyNNTrDpJqbXyYZ3yyL0JmHuvlupXtI7qBsTB2HEGFzS0lNf-OB4.jpg?r=02b"
+    },
+    {
+      "id": 4,
+      "title": "Pulp Fiction",
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "genre": "Crime",
+      "img": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSGtv55T_iUdTa9fXCVk1jXTwYT3kd0SsILKwz_Yb_LI17SXTaRH2vyTXM0A9Syjlex2e5WphqXRyIHMRI5mBuxVAxyA28RQ8uTs.jpg?r=3b9"
+    },
+    {
+      "id": 5,
+      "title": "The Godfather",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "genre": "Crime",
+      "img": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABWEZgsbdAb4HRStPWuD-IhsQnmsE-17G_j2AnhBJXR2jDUB6RcwFpVKFoO3bVztbgqHN3YR56LQM4KqODMk9GU0M7bFds1WqCY2N.jpg?r=88f"
+    },
+    {
+      "id": 6,
+      "title": "Fight Club",
+      "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+      "genre": "Drama",
+      "img": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABarPUN0hHU86yIrm-7jgC0J84sg5bBpa2wl2EMOkY501wNKUzCIhPQcU0mbOJGAVJ009zfmkPDEmuisu7dQrAk_V3OdFiUp9cJzA.jpg?r=824"
+    }
+  ],
+  "genres": ["Drama", "Action", "Crime"]
+}
