@@ -1,0 +1,23 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main-color: #0b0b0b;
+  --gray-color: #464545;
+}
+
+@mixin mobile {
+  @media (max-width: 480px){
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media ( 480px < width < 960px){
+    @content;
+  }
+}

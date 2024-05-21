@@ -1,0 +1,125 @@
+@import "../../styles/style.scss";
+
+.movie_container {
+  width: 240px;
+  height: 140px;
+  position: relative;
+
+  .movie {
+    width: 240px;
+    height: 140px;
+    background-color: var(--main-color);
+    color: white;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    span {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: white;
+      font-weight: bolder;
+    }
+
+    h3 {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+    }
+
+    video {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .item_info {
+    width: 240px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--gray-color);
+    transform: scale(1) translate3d(0, 0, 0);
+
+    .info_top {
+      position: relative;
+
+      img {
+        cursor: pointer;
+        object-fit: cover;
+        width: 100%;
+        height: 140px;
+      }
+
+      span {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: lightgray;
+        font-weight: bolder;
+      }
+
+      h3 {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+      }
+
+      .icons {
+        display: flex;
+        gap: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .icon {
+          border: 2px solid white;
+          padding: 5px;
+          border-radius: 50%;
+          font-size: 25px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .info_bottom {
+      .desc {
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 13px;
+        text-align: justify;
+      }
+    }
+  }
+
+  &:hover .movie {
+    opacity: 0;
+  }
+
+  &:hover .item_info {
+    transform: scale(1.1) translate3d(10px, -70px, 0);
+    opacity: 1;
+  }
+}
